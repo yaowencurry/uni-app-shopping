@@ -1,0 +1,62 @@
+{
+	"pages": [{
+		"path": "pages/index/Index",
+		"style": {
+			"navigationBarTitleText": "uni-ui基础项目"
+		}
+	}, {
+		"path": "pages/shopcar/Index",
+		"style": {}
+	}, {
+		"path": "pages/home/Index",
+		"style": {}
+	}, {
+		"path": "pages/find/Index",
+		"style": {}
+	}    ,{
+            "path" : "pages/login/Login",
+            "style" : {
+				"navigationBarTitleText": "登录"
+			}
+        }
+    ],
+	"globalStyle": {
+		"app-plus": {
+			"titleNView": false
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#e32521",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/Index",
+			"iconPath": "static/image/home.png",
+			"selectedIconPath": "static/image/home_active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/find/Index",
+			"iconPath": "static/image/find.png",
+			"selectedIconPath": "static/image/find_active.png",
+			"text": "发现"
+		}, {
+			"pagePath": "pages/shopcar/Index",
+			"iconPath": "static/image/shopcar.png",
+			"selectedIconPath": "static/image/shopcar_active.png",
+			"text": "购物车"
+		}, {
+			"pagePath": "pages/home/Index",
+			"iconPath": "static/image/mine.png",
+			"selectedIconPath": "static/image/mine_ative.png",
+			"text": "我的"
+		}],
+		"midButton": {
+			"width": "80px",
+			"height": "80px",
+			"text": "添加",
+			"iconPath": "static/image/add_btn.png"
+
+		}
+	}
+}

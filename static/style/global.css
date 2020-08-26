@@ -1,0 +1,55 @@
+text,
+view,
+h1,
+h2,
+h3,
+h4,
+h5,
+input{
+	font-family: 'Courier New', Courier, monospace;
+}
+
+text{
+	font-size: 28rpx;
+}
+input{
+	font-size: 28rpx;
+	padding: 20rpx 20rpx;
+	color: 333;
+	
+}
+button{
+	font-size: 30rpx;
+	margin: 25rpx auto;
+	border-radius: 40rpx;
+	border: none;
+	width: 100%;
+	font-weight: 500;
+}
+.submit-btn{
+	background-image: linear-gradient(90deg,#f10000,#ff2000 73%,#ff4f18);
+	color: #fff !important;
+	
+}
+.ignore-btn{
+	border: 1px solid #f10000;
+	color: #f10000 !important;
+	background-color: #fff !important;
+}
+
+
+.d-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.justify-center {
+	justify-content: center;
+}
